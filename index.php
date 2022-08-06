@@ -7,10 +7,8 @@ require 'header.php';
   .h2{
     padding-left: 20px;
   }
+
 </style>
-
-
-<main>
   <div class="container marketing mourad">
     <div class="row">
       <div class="col-lg-4">
@@ -21,30 +19,8 @@ require 'header.php';
       </div>
     </div>
     <hr class="featurette-divider">
+  </div>
 
-    <div class="row featurette">
-      
-
-
-
-    </div>
-      
-
-
-    
-    
-
-
-
-
-
-
-    
-
-    <hr class="featurette-divider">
-
-
-    <?php
-
+<?php
 require 'footer.php';
 ?>

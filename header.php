@@ -31,12 +31,13 @@
             <a class="nav-link  active" href="index11.php">home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="index3.php">Link</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#">Disabled</a>
+            <a class="nav-link " href="carousel.php">Disabled</a>
           </li>
         </ul>
+
         <div class="d-flex">
               <img class="bd-placeholder-img rounded-circle" src="Fotoram.io.jpg" alt="" height="40" width="40">
         </div>
