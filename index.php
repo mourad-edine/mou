@@ -1,3 +1,10 @@
+<?php
+
+
+require 'header.php';
+?>
+
+
 
 <main>
   <div class="container marketing mourad">
@@ -59,4 +66,7 @@
     <hr class="featurette-divider">
 
 
+    <?php
 
+require 'footer.php';
+?>
