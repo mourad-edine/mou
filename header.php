@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8">
 
-    <title>mon site</title>
+    <title><?php echo $titles ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   </head>
   <body> 
@@ -38,7 +38,7 @@
           </li>
         </ul>
         <div class="d-flex">
-              <img class="bd-placeholder-img rounded-circle" src="Fotoram.io.jpg" alt="" height="50">
+              <img class="bd-placeholder-img rounded-circle" src="Fotoram.io.jpg" alt="" height="40" width="40">
         </div>
       </div>
     </div>
