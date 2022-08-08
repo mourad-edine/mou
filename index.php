@@ -3,12 +3,6 @@
 $titles = 'page d\'accueil';
 require 'header.php';
 ?>
-<style>
-  .h2{
-    padding-left: 20px;
-  }
-
-</style>
   <div class="container marketing mourad">
     <div class="row">
       <div class="col-lg-4">

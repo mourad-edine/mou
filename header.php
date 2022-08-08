@@ -31,7 +31,7 @@
             <a class="nav-link  active" href="index11.php">home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index3.php">Link</a>
+            <a class="nav-link" href="carousel.html">Link</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " href="carousel.php">Disabled</a>
