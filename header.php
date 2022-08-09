@@ -5,9 +5,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-
+    
     <title><?php echo $titles ?></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body> 
 
@@ -31,7 +36,7 @@
             <a class="nav-link  active" href="index11.php">home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="carousel.html">Link</a>
+            <a class="nav-link" href="carousel.php">Link</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " href="carousel.php">Disabled</a>
