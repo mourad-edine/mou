@@ -3,7 +3,7 @@
         <Entete />
         <!------fin du nav-->
 
-        <model :produits="produits"/>
+        <ModeleIngredient/>
 
         <div>
             <div>
@@ -29,18 +29,17 @@
 </template>
 
 <script>
-import model from './model.vue';
+
+import ModeleIngredient from './ModeleIngredient.vue';
 import ouverture from './ouverture.vue';
 import pied from './footer.vue';
 import Entete from './Entete.vue';
-import pro from '../db.json'
 
 export default {
     name: "index",
 
     data() {
         return {
-            produits: pro
         }
     },
     setup() {
@@ -49,12 +48,10 @@ export default {
 
     },
    
-    components: { ouverture, pied, Entete, model},
+    components: { ouverture, pied, Entete, ModeleIngredient},
 
     methods: {
-        verifier(){
-            console.log(this.produits)
-        }
+
     }
 
     

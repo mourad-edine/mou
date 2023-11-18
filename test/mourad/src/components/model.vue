@@ -15,12 +15,12 @@
                     <!----liste des recettes-->
 
                     <div class="grid grid-cols-2">
-                        <div v-for="item in prodice"  v-on:click="consolier">
+                        <div v-for="item in prodice" v-on:click="consolier">
                             <div>
                                 <img src="./images/tacos.jpg" alt="" class="w-16 h-16">
                                 <div class="m-2">
                                     <span class="text-semibold m-2 text-gray-700">{{ item.nom_produit }}</span>
-                                    <span class="text-gray-400">prix :{{ item.prix }}  $</span>
+                                    <span class="text-gray-400">prix :{{ item.prix }} $</span>
                                 </div>
                             </div>
                         </div>
@@ -36,10 +36,11 @@
             </div>
         </div>
     </div>
+    <ModelCart/>
 </template>
 
 <script>
-
+import ModelCart from './ModelCart.vue'
 import pro from '../database.json'
 export default {
 
@@ -47,18 +48,22 @@ export default {
     name: 'model',
     data() {
         return {
-           prodice : pro
+            prodice: pro
         }
     },
     methods: {
         sho() {
             console.log(this.produits)
         },
-        consolier(){
+        consolier() {
             console.warn(this.valeur)
         }
     },
 
-    props : ['produits']
+    components: {
+        ModelCart
+    }
+
+
 }
 </script>

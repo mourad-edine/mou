@@ -52,7 +52,7 @@
             </div>
         </div>
     </div>
-    <model :produit = produit />
+    <model/>
 </template>
 
 <script>
@@ -72,7 +72,7 @@ export default {
     },
 
     components : {
-
+        model
     },
 
     props : {
