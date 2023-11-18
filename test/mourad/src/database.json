@@ -1,0 +1,34 @@
+[
+ {
+        "id": 1,
+        "nom_produit": "Tomato Puree",
+        "prix": "$393.09",
+        "image" : "./images/arranger.jpg"
+      },
+      {
+        "id": 2,
+        "nom_produit": "Onions - White",
+        "prix": "$286.20",
+        "image" : "./images/burger.jpg"
+      },
+      {
+        "id": 3,
+        "nom_produit": "Potatoes - Parissienne",
+        "prix": "$570.77",
+        "image" : "./images/crème.jpg"
+      },
+      {
+        "id": 4,
+        "nom_produit": "Tabasco Sauce, 2 Oz",
+        "prix": "$79.94",
+        "image" : "./images/croissant.jpg"
+      },
+      {
+        "id": 5,
+        "nom_produit": "Silicone Parch. 16.3x24.3",
+        "prix": "$375.32",
+        "image" : "./images/curry.jpg"
+      }
+      
+     
+]

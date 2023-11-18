@@ -1,0 +1,87 @@
+{
+  "produits": [
+    
+      {
+        "id": 1,
+        "nom_produit": "Tomato Puree",
+        "prix": "$393.09",
+        "image" : "arranger.jpg"
+      },
+      {
+        "id": 2,
+        "nom_produit": "Onions - White",
+        "prix": "$286.20",
+        "image" : "burger.jpg"
+      },
+      {
+        "id": 3,
+        "nom_produit": "Potatoes - Parissienne",
+        "prix": "$570.77",
+        "image" : "crème.jpg"
+      },
+      {
+        "id": 4,
+        "nom_produit": "Tabasco Sauce, 2 Oz",
+        "prix": "$79.94",
+        "image" : "croissant.jpg"
+      },
+      {
+        "id": 5,
+        "nom_produit": "Silicone Parch. 16.3x24.3",
+        "prix": "$375.32",
+        "image" : "curry.jpg"
+      },
+      {
+        "id": 6,
+        "nom_produit": "Mangoes",
+        "prix": "$44.36",
+        "image" : "fleur.jpg"
+      },
+      {
+        "id": 7,
+        "nom_produit": "Beef - Salted",
+        "prix": "$502.87",
+        "image" : "noodles.jpg"
+      },
+      {
+        "id": 8,
+        "nom_produit": "Chip - Potato Dill Pickle",
+        "prix": "$989.08",
+        "image" : "orange.jpg"
+      },
+      {
+        "id": 9,
+        "nom_produit": "Garlic",
+        "prix": "$434.52",
+        "image" : "pain.jpg"
+      },
+      {
+        "id": 10,
+        "nom_produit": "Longos - Assorted Sandwich",
+        "prix": "$434.53",
+        "image" : "pizza.jpg"
+      },
+      {
+        "id": 11,
+        "nom_produit": "Crab - Claws, Snow 16 - 24",
+        "prix": "$292.27",
+        "image" : "poulet.jpg"
+      },
+      {
+        "id": 12,
+        "nom_produit": "Corn Meal",
+        "prix": "$911.26",
+        "image" : "tacos.jpg"
+
+      },
+      {
+        "id": 13,
+        "nom_produit": "Wine - Casillero Deldiablo",
+        "prix": "$249.97"
+        ,
+        "image" : "tiramisu.jpg"
+      }
+      
+  ]
+  
+}
